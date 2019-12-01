@@ -1,0 +1,3 @@
+We do not use classes, only functional components (modern way of working in React).
+What makes JS function a React component is that it returns JSX code or React.create element logic.
+Your components can be used in JSX only the name must start with a capital letter
