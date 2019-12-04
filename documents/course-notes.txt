@@ -1,3 +1,7 @@
 We do not use classes, only functional components (modern way of working in React).
 What makes JS function a React component is that it returns JSX code or React.create element logic.
-Your components can be used in JSX only the name must start with a capital letter
+Your components can be used in JSX only the name must start with a capital letter.
+
+All css files are applied globally no matter where you import them.
+We transfer properties between React components using 'props'.
+Every js object has to be mapped into a JSX equivalent (renderable element).
