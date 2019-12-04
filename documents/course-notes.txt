@@ -5,3 +5,12 @@ Your components can be used in JSX only the name must start with a capital lette
 All css files are applied globally no matter where you import them.
 We transfer properties between React components using 'props'.
 Every js object has to be mapped into a JSX equivalent (renderable element).
+
+Callback functions naming convention: 'onXY' (eg. 'onAddGoal').
+
+When a JS object is changed React ignores it, we need to notify it to rerender - with a hook function.
+Hook functions (functional React) start with 'use' prefix (eg. 'useState').
+
+useState always returns two elements:
+ - latest snapshot,
+ - a function that allows us to update that state
